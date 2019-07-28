@@ -4,7 +4,9 @@
 <head>
   <title>Ben Rosen | Full Stack Development</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
@@ -21,10 +23,10 @@
       <p>Hi, I'm Ben. I'm a Thinkful student on my way to becoming a Full Stack Developer.</p>
     </header>
     <section id="about-me">
+      <h2>About Me</h2>
       <img
         src="https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/37270821_4332307353380_3940336880070950912_n.jpg?_nc_cat=110&_nc_oc=AQnfIZ4rjpQ7XCOQhPuwcuvS7qcLMkdiFQx7x3FyD0WUwVA84VXzjhoaIRQDsH5lN58&_nc_ht=scontent.fphl2-4.fna&oh=2835f1ad51d2f848978f9e9ca93fbee1&oe=5DB04EFD"
         width=200px>
-      <h2>About Me</h2>
       <p class="about-me">I'm Ben Rosen and I'm a current Engineering Immersion student at Thinkful. I came to
         programming through my background as a musician, discovering Lilypond for typsetting music (which compiles
         text-based input similar to LaTex) and Supercollider, an Object Oriented Programming language that can be used
@@ -37,33 +39,33 @@
       <h2>Projects</h2>
       <div class="projects">
         <article>
-          <img src="pics/bookmarks.png" width=200px>
           <h3>Bookmarks App</h3>
+          <img src="pics/bookmarks.png" width=200px>
           <p>This is a simple web app for managing bookmarks, that allows users to input, edit, remove, rate, and filter
             bookmarks by rating. </p>
-          <p>Technologies used: <em>HTML5, CSS, JavaScript, JQuery</em></p>
+          <p class="tech">Technologies used: HTML5, CSS, JavaScript, JQuery</p>
           <a href="https://thinkful-ei-firefly.github.io/ben-bookmarks-app/" target="_blank">Live Link</a>
           <a href="https://github.com/thinkful-ei-firefly/ben-bookmarks-app" target="_blank">GitHub Repo</a>
         </article>
         <article>
-          <img src="pics/buffy.png" width=200px>
           <h3>Buffy Trivia Quiz</h3>
+          <img src="pics/buffy.png" width=200px>
           <p>This app allows a user to test their trivia knowledge about the TV show Buffy The Vampire Slayer. The app
             randomly loads 5 questions from a pool of 10, and randomizes the order of the answer choices as well. It
             checks user answer choices to see if they are correct, gives the appropriate feedback, and keeps a running
             score in addition to displaying the current question number. At the end, a user can choose to re-take the
             quiz.</p>
-            <p>Technologies used: <em>HTML5, CSS, JavaScript, JQuery</em></p>
+          <p class="tech">Technologies used: HTML5, CSS, JavaScript, JQuery</p>
           <a href="https://thinkful-ei-firefly.github.io/Quiz-App-Sam-Ben/" target="_blank">Live Link</a>
           <a href="https://github.com/thinkful-ei-firefly/Quiz-App-Sam-Ben" target="_blank">GitHub Repo</a>
         </article>
         <article>
-          <img src="pics/waitstaff.png" width=200px>
           <h3>Waitstaff Calculator</h3>
+          <img src="pics/waitstaff.png" width=200px>
           <p>This app allows a user to calculate earnings and tip average based on inputting meal cost, tax and tip
             rates. It calculates and displays the tip from the input and keeps a running total of the tips, an average
             tip count, and a count of the number of meals inputted. </p>
-            <p>Technologies used: <em>HTML5, CSS, JavaScript, JQuery</em></p>
+          <p class="tech">Technologies used: HTML5, CSS, JavaScript, JQuery</p>
           <a href="https://thinkful-ei-firefly.github.io/waitstaff-calculator-ben/" target="_blank">Live Link</a>
           <a href="https://github.com/thinkful-ei-firefly/waitstaff-calculator-ben" target="_blank">GitHub Repo</a>
         </article>
@@ -71,9 +73,11 @@
     </section>
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email:</p>
-      <p>GitHub:</p>
-      <p>LinkedIn:</p>
+      <div class="contact-flex">
+        <a href="mailto:benjamin.j.rosen@gmail.com" target="_blank">Email</a>
+        <a href="https://github.com/tymbalodeon" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ben-rosen-58918843/" target="_blank">LinkedIn</a>
+      </div>
     </section>
   </main>
 </body>
